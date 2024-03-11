@@ -1,0 +1,22 @@
+{
+"storeHouse": [
+{"sourceName":"🍚默认无法使用，切换↓线路","sourceUrl":"http://xhww.fun:63/小米/DEMO.json"},//以下内容为互联网收集
+{ "sourceName": "🏡小荷线路", "sourceUrl": "https://www.huichunniao.cn/xh/t.json" }, 
+{ "sourceName":"🏡4k影音天堂","sourceUrl":"https://www.huichunniao.cn/vip/4k/t.json"},
+{ "sourceName": "🚀4K视界", "sourceUrl": "http://tvkj.top/DC/sj/tvkj/svip.json" }, 
+{ "sourceName": "🚀云星线路", "sourceUrl": "http://itvbox.cc/tvbox/云星日记/1.m3u8" }, 
+{ "sourceName": "🚀多多线路", "sourceUrl": "http://cdn.yydsys.top/duo" }, 
+{ "sourceName": "🚀饭太硬线路", "sourceUrl": "http://饭太硬.top/tv" }, 
+{ "sourceName": "🚀肥猫线路", "sourceUrl": "http://肥猫.love" }, 
+{ "sourceName": "🚀俊哥线路", "sourceUrl": "http://home.jundie.top:81/top98.json" },
+{ "sourceName":"🚀小盒酷玩","sourceUrl":"http://小盒酷玩.fun:66/禁止贩卖"},
+{ "sourceName":"🚀欧歌线路","sourceUrl":"http://tv.nxog.top/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=index2&xl=&jar=index2"},
+{"sourceName":"🏡应用多多黄焖鸡","sourceUrl":"http://yydsys.top/duo"},
+{"sourceName":"🏡应用多多炒菜","sourceUrl":"http://cdn.yydsys.top/duo"},
+{"sourceName":"❤️应用多多米饭","sourceUrl":"http://饭太硬.top/tv"},
+{"sourceName":"🏡应用多多肥猫","sourceUrl":"http://我不是.肥猫.love:63/接口禁止贩卖"},
+{"sourceName":"❤️应用多多运输","sourceUrl":"https://weixine.net/ysc.json"},
+{"sourceName":"🏡应用多多南瓜","sourceUrl":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json"},
+{"sourceName":"💜该路线暂停使用","sourceUrl":"https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/c1a0191a57a1e76a67d3e4a659c56d6296ec4370/19.json"}
+]}
+
