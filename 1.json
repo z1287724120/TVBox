@@ -1,1622 +1,66 @@
 {
-  "sites": [
-    {
-      "key": "meowtv_dbtj",
-      "name": "璞嗙摚鈹冩帹鑽�",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "meowtv_ngys",
-      "name": "鍗楃摐鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_NanGua",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": 2
-    },
-    {
-      "key": "meowtv_Mmys",
-      "name": "钀岀背鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_AppMao",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "FbjKZ1gO+9u81wMIxzHg+7x1Oep4CIFuZAlCy8a4qCgjGLacnxDo6wiBr66jP3X8J2mRx31u1XgkTTVrENVjfhQKUN2Yi12XNWQSlmVZxLtiSaSiZG0xf1Hw"
-    },
-    {
-      "key": "meowtv_jlys",
-      "name": "涔濆叚鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_Cs1369",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": 2,
-      "jar": "http://meowtv.cn/meow3;md5;893D0391C828FD753EE4055EB5D4751A"
-    },
-    {
-      "key": "meowtv_Atys",
-      "name": "濂ョ壒鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_Auete",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2,
-      "jar": "http://meowtv.cn/meow2;md5;0683D513E74B1B6BFF831AB7876B398A"
-    },
-    {
-      "key": "meowtv_jhys",
-      "name": "One 鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.kuin.one/api.php/app/",
-      "jar": "http://meowtv.cn/meow2;md5;0683D513E74B1B6BFF831AB7876B398A"
-    },
-    {
-      "key": "meowtv_Libo",
-      "name": "鍒╂挱鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_Libvio",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.libvio.pro/"
-    },
-    {
-      "key": "meowtv_czys",
-      "name": "鍘傞暱鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_Czsapp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.czzy88.com/"
-    },
-    {
-      "key": "meowtv_ddys",
-      "name": "浣庣鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_Ddrk",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": 2
-    },
-    {
-      "key": "meowtv_77yy",
-      "name": "涓冧竷鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_Kunyu77",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "http://meowtv.cn/meow3;md5;893D0391C828FD753EE4055EB5D4751A"
-    },
-    {
-      "key": "meowtv_yqks",
-      "name": "涓€璧封攦褰辫",
-      "type": 3,
-      "api": "csp_YQKan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "meowtv_Btoo",
-      "name": "姣旂壒鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_Bttwoo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "meowtv_nmys",
-      "name": "鍐滄皯鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/鍐滄皯褰辫.js"
-    },
-    {
-      "key": "meowtv_wfys",
-      "name": "缃戦鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/缃戦褰辫.js"
-    },
-    {
-      "key": "meowtv_dyxs",
-      "name": "鍏堢敓鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/鐢靛奖鍏堢敓.js"
-    },
-    {
-      "key": "meowtv_mays",
-      "name": "绫崇埍鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/绫崇埍褰辫.js"
-    },
-    {
-      "key": "meowtv_qxys",
-      "name": "绉嬮湠鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/绉嬮湠褰辫.js"
-    },
-    {
-      "key": "meowtv_sjys",
-      "name": "瑙嗚鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/瑙嗚褰辫.js"
-    },
-    {
-      "key": "meowtv_xcys",
-      "name": "鏄熻景鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/鏄熻景褰辫.js"
-    },
-    {
-      "key": "meowtv_qnys",
-      "name": "涓冨勾鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/涓冨勾褰辫.json"
-    },
-    {
-      "key": "meowtv_thys",
-      "name": "鍦熻豹鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/鍦熻豹褰辫.json"
-    },
-    {
-      "key": "meowtv_Qxys",
-      "name": "涓冩柊鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/涓冩柊褰辫.json"
-    },
-    {
-      "key": "meowtv_ynys",
-      "name": "楦鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/楦褰辫.json",
-      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
-    },
-    {
-      "key": "meowtv_bkys",
-      "name": "涓嶅崱鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/涓嶅崱褰辫.json",
-      "jar": "http://meowtv.cn/meow2;md5;0683D513E74B1B6BFF831AB7876B398A"
-    },
-    {
-      "key": "meowtv_ssys",
-      "name": "涓夋€濃攦褰辫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/涓夋€濆奖瑙�.json",
-      "jar": "http://meowtv.cn/meow2;md5;0683D513E74B1B6BFF831AB7876B398A"
-    },
-    {
-      "key": "meowtv_wdys",
-      "name": "涓囪揪鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/涓囪揪褰辫.json",
-      "jar": "http://meowtv.cn/meow2;md5;0683D513E74B1B6BFF831AB7876B398A"
-    },
-    {
-      "key": "meowtv_Nfys",
-      "name": "濂堥鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/濂堥褰辫.json",
-      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
-    },
-    {
-      "key": "meowtv_Free",
-      "name": "鍏嶈垂鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/鍏嶈垂褰辫.json"
-    },
-    {
-      "key": "meowtv_qyyy",
-      "name": "濂囦紭鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/濂囦紭褰遍櫌.json"
-    },
-    {
-      "key": "meowtv_bdys",
-      "name": "鍝斿榾鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/鍝斿榾褰辫.json",
-      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
-    },
-    {
-      "key": "meowtv_348D",
-      "name": "钃濆厜鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/钃濆厜褰辫.json",
-      "jar": "http://meowtv.cn/meow2;md5;0683D513E74B1B6BFF831AB7876B398A"
-    },
-    {
-      "key": "meowtv_03ys",
-      "name": "闆朵笁鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/闆朵笁褰辫.json",
-      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
-    },
-    {
-      "key": "meowtv_hxys",
-      "name": "濂芥垙鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/濂芥垙褰辫.json"
-    },
-    {
-      "key": "meowtv_phys",
-      "name": "鑳栬檸鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/鑳栬檸褰辫.json"
-    },
-    {
-      "key": "meowtv_dgys",
-      "name": "杈鹃緹鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XPathFilter",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/杈鹃緹褰辫.json"
-    },
-    {
-      "key": "meowtv_akyy",
-      "name": "鐖辩湅鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/鐖辩湅褰辫.json",
-      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
-    },
-    {
-      "key": "meowtv_scys",
-      "name": "鍦ｅ煄鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/鍦ｅ煄褰辫.json"
-    },
-    {
-      "key": "meowtv_tvbb",
-      "name": "TVB 鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/TVB浜戞挱.json"
-    },
-    {
-      "key": "meowtv_syys",
-      "name": "閫熸槧鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/閫熸槧褰辫.json",
-      "jar": "http://meowtv.cn/meow2;md5;0683D513E74B1B6BFF831AB7876B398A"
-    },
-    {
-      "key": "meowtv_Shys",
-      "name": "鍙岄粍鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http://cdn.teyonds.com/xp/鍙岄粍褰辫.json",
-      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
-    },
-    {
-      "key": "meowtv_myys",
-      "name": "楹昏。鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/楹昏。褰辫.json",
-      "jar": "http://meowtv.cn/meow2;md5;0683D513E74B1B6BFF831AB7876B398A"
-    },
-    {
-      "key": "meowtv_Kkys",
-      "name": "搴撳簱鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/搴撳簱褰辫.json",
-      "jar": "http://meowtv.cn/meow2;md5;0683D513E74B1B6BFF831AB7876B398A"
-    },
-    {
-      "key": "meowtv_wwys",
-      "name": "浜斾簲鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/浜斾簲褰辫.json"
-    },
-    {
-      "key": "meowtv_Hhys",
-      "name": "榛戠嫄鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/榛戠嫄褰辫.json"
-    },
-    {
-      "key": "meowtv_kcys",
-      "name": "閰疯尪鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/閰疯尪褰辫.json"
-    },
-    {
-      "key": "meowtv_ggys",
-      "name": "鍏夋鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/鍏夋褰辫.json"
-    },
-    {
-      "key": "meowtv_akys",
-      "name": "鐖辩湅鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_Ikanbot",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "[鎺掑簭:lz绾胯矾,kuaik]",
-      "jar": "http://meowtv.cn/meow5;md5;6120D08F4EB1EDCE507BFCD1B339C482"
-    },
-    {
-      "key": "meowtv_yyys",
-      "name": "楦腑鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://yayayaaapp.ynf.icu/api.php/app/"
-    },
-    {
-      "key": "meowtv_xxys",
-      "name": "鏂版柊鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://4k.953365.cn:8090/xgapp.php/v3/"
-    },
-    {
-      "key": "meowtv_Zzys",
-      "name": "璧炶禐鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http://111.230.51.151:9696//api.php/app/"
-    },
-    {
-      "key": "meowtv_xhys",
-      "name": "灏忚儭鈹冨奖瑙�",
-      "type": 1,
-      "api": "http://c.灏忚儭.icu/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "meowtv_yszj",
-      "name": "涔嬪鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://yingszj.xn--654a.cc/api.php/app/",
-      "jar": "http://meowtv.cn/meow2;md5;0683D513E74B1B6BFF831AB7876B398A"
-    },
-    {
-      "key": "meowtv_69mj",
-      "name": "鍏節鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.69mj.com/xgapp.php/v2/",
-      "jar": "http://meowtv.cn/meow2;md5;0683D513E74B1B6BFF831AB7876B398A"
-    },
-    {
-      "key": "meowtv_zxzj",
-      "name": "鍦ㄧ嚎鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_Zxzj",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.zxzj.pro/",
-      "jar": "http://meowtv.cn/meow3;md5;893D0391C828FD753EE4055EB5D4751A"
-    },
-    {
-      "key": "meowtv_jpyy",
-      "name": "鑽愮墖鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http://cdn.teyonds.com/js/鑽愮墖褰辫.js"
-    },
-    {
-      "key": "meowtv_shys",
-      "name": "楠氱伀鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/楠氱伀褰辫.js"
-    },
-    {
-      "key": "meowtv_dmys",
-      "name": "澶х背鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/澶х背褰辫.js"
-    },
-    {
-      "key": "meowtv_kkys",
-      "name": "鐪嬬湅鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/鐪嬬湅褰辫.js"
-    },
-    {
-      "key": "meowtv_qfys",
-      "name": "璧烽鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/璧烽褰辫.js"
-    },
-    {
-      "key": "meowtv_zzys",
-      "name": "瀛愬瓙鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/瀛愬瓙褰辫.js"
-    },
-    {
-      "key": "meowtv_jyys",
-      "name": "涔濇偁鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/涔濇偁褰辫.js"
-    },
-    {
-      "key": "meowtv_vfys",
-      "name": "VOF 鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/VOF褰辫.js"
-    },
-    {
-      "key": "meowtv_nyys",
-      "name": "绾界害鈹冨奖瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/绾界害褰辫.js"
-    },
-    {
-      "key": "meowtv_996y",
-      "name": "閰掑叚鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "鍒嗙被url": "https://www.cs1369.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "鍒嗙被": "鐢靛奖$1#鐢佃鍓�$2#鍔ㄦ极$3#鐖芥枃鐭墽$4#鍔ㄤ綔鐗�$6#鍠滃墽鐗�$7#鐖辨儏鐗�$8#绉戝够鐗�$9#鎭愭€栫墖$10#鍓ф儏鐗�$11#鎴樹簤鐗�$12#鍔ㄧ敾鐗�$13#绾綍鐗�$14",
-        "绛涢€�": "1"
-      }
-    },
-    {
-      "key": "meowtv_vsys",
-      "name": "濞佸＋鈹冨奖瑙�",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/濞佸＋褰辫.json"
-    },
-    {
-      "key": "meowtv_49ys",
-      "name": "鍥涗節鈹冭祫婧�",
-      "type": 1,
-      "api": "https://49zyw.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "鍥戒骇鍓�",
-        "绾綍鐗�",
-        "娆х編鍓�",
-        "棣欐腐鍓�",
-        "鍔ㄤ綔鐗�",
-        "鐖辨儏鐗�",
-        "绉戝够鐗�",
-        "鎭愭€栫墖",
-        "鍓ф儏鐗�",
-        "鎴樹簤鐗�",
-        "鍠滃墽鐗�",
-        "鍔ㄧ敾鐗�",
-        "鐘姜鐗�",
-        "闊╁浗鍓�",
-        "鍔ㄦ极",
-        "鐢靛奖",
-        "澶ч檰缁艰壓",
-        "娓彴缁艰壓",
-        "鏃ラ煩缁艰壓",
-        "娆х編缁艰壓",
-        "鍙版咕鍓�",
-        "鍥戒骇鍔ㄦ极",
-        "鏃ユ湰鍔ㄦ极",
-        "娆х編鍔ㄦ极",
-        "娉板浗鍓�",
-        "鏃ュ墽",
-        "鐢靛奖瑙ｈ",
-        "濂囧够鐗�",
-        "鐏鹃毦鐗�",
-        "鎮枒鐗�",
-        "鍏朵粬鐗�",
-        "浣撹偛璧涗簨",
-        "娴峰鍓�"
-      ]
-    },
-    {
-      "key": "meowtv_lzzy",
-      "name": "閲忓瓙鈹冭祫婧�",
-      "type": 1,
-      "api": "http://cj.lziapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
-      "categories": [
-        "鍥戒骇鍓�",
-        "鍥戒骇鍔ㄦ极",
-        "娉板浗鍓�",
-        "鍙版咕鍓�",
-        "棣欐腐鍓�",
-        "娆х編鍓�",
-        "闊╁浗鍓�",
-        "鏃ユ湰鍓�",
-        "鍔ㄦ极",
-        "浣撹偛",
-        "鍓ф儏鐗�",
-        "鍔ㄤ綔鐗�",
-        "鐖辨儏鐗�",
-        "鍠滃墽鐗�"
-      ]
-    },
-    {
-      "key": "meowtv_ffzy",
-      "name": "闈炲嚒鈹冭祫婧�",
-      "type": 1,
-      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
-      "categories": [
-        "鍔ㄤ綔鐗�",
-        "鍠滃墽鐗�",
-        "绉戝够鐗�",
-        "鎭愭€栫墖",
-        "鐖辨儏鐗�",
-        "鍓ф儏鐗�",
-        "鎴樹簤鐗�",
-        "璁板綍鐗�",
-        "鍥戒骇鍓�",
-        "娆х編鍓�",
-        "棣欐腐鍓�",
-        "闊╁浗鍓�",
-        "鍙版咕鍓�",
-        "鏃ユ湰鍓�",
-        "娴峰鍓�",
-        "娉板浗鍓�",
-        "鍥戒骇鍔ㄦ极",
-        "鏃ラ煩鍔ㄦ极",
-        "娆х編鍔ㄦ极",
-        "娓彴鍔ㄦ极",
-        "娴峰鍔ㄦ极",
-        "澶ч檰缁艰壓",
-        "娓彴缁艰壓",
-        "鏃ラ煩缁艰壓",
-        "娆х編缁艰壓"
-      ]
-    },
-    {
-      "key": "meowtv_snzy",
-      "name": "绱㈠凹鈹冭祫婧�",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "鍔ㄤ綔鐗�",
-        "鍠滃墽鐗�",
-        "绉戝够鐗�",
-        "鎭愭€栫墖",
-        "鐖辨儏鐗�",
-        "鍓ф儏鐗�",
-        "鎴樹簤鐗�",
-        "璁板綍鐗�",
-        "鍥戒骇鍓�",
-        "娆х編鍓�",
-        "棣欐腐鍓�",
-        "闊╁浗鍓�",
-        "鍙版咕鍓�",
-        "鏃ユ湰鍓�",
-        "娴峰鍓�",
-        "娉板浗鍓�",
-        "鍥戒骇鍔ㄦ极",
-        "鏃ラ煩鍔ㄦ极",
-        "娆х編鍔ㄦ极",
-        "娓彴鍔ㄦ极",
-        "娴峰鍔ㄦ极",
-        "澶ч檰缁艰壓",
-        "娓彴缁艰壓",
-        "鏃ラ煩缁艰壓",
-        "娆х編缁艰壓"
-      ]
-    },
-    {
-      "key": "meowtv_bfzy",
-      "name": "鏆撮鈹冭祫婧�",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "鍥戒骇鍓�",
-        "鍥戒骇鍔ㄦ极",
-        "澶ч檰缁艰壓",
-        "娓彴缁艰壓",
-        "棣欐腐鍓�",
-        "鍙版咕鍓�",
-        "鏃ユ湰鍓�",
-        "娆х編鍓�",
-        "娉板浗鍓�",
-        "鏃ユ湰鍔ㄦ极",
-        "鏃ユ湰缁艰壓",
-        "缁艰壓棰戦亾",
-        "鏂伴┈娉扮患鑹�",
-        "绾綍鐗�",
-        "绉戝够鐗�",
-        "鍠滃墽鐗�",
-        "鎴樹簤鐗�"
-      ],
-      "jar": "http://meowtv.cn/meow2;md5;0683D513E74B1B6BFF831AB7876B398A"
-    },
-    {
-      "key": "meowtv_kkzy",
-      "name": "蹇湅鈹冭祫婧�",
-      "type": 1,
-      "api": "https://kuaikan-api.com/api.php/provide/vod/from/kuaikan/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
-      "categories": [
-        "鍥戒骇鍓�",
-        "娓彴鍓�",
-        "鍥戒骇鍔ㄦ极",
-        "鏃ラ煩鍓�",
-        "娆х編鍓�",
-        "娴峰鍓�",
-        "鍔ㄤ綔鐗�",
-        "鐖辨儏鐗�",
-        "鍓ф儏鐗�",
-        "绉戝够鐗�",
-        "濂囧够鐗�",
-        "鎴樹簤鐗�",
-        "鐘姜鐗�",
-        "鎭愭€栫墖",
-        "鎮枒鐗�",
-        "鎯婃倸鐗�",
-        "鍐掗櫓鐗�"
-      ]
-    },
-    {
-      "key": "meowtv_33ys",
-      "name": "涓夊叚鈹冭棰�",
-      "type": 3,
-      "api": "csp_SP33",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "meowtv_qysp",
-      "name": "濂囪壓鈹冭棰�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/濂囪壓瑙嗛.js"
-    },
-    {
-      "key": "meowtv_txsp",
-      "name": "鑵捐鈹冭棰�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/鑵捐瑙嗛.js"
-    },
-    {
-      "key": "meowtv_yksp",
-      "name": "浼橀叿鈹冭棰�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/浼橀叿瑙嗛.js"
-    },
-    {
-      "key": "meowtv_mgsp",
-      "name": "鑺掓灉鈹冭棰�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/鑺掓灉瑙嗛.js"
-    },
-    {
-      "key": "meowtv_sgys",
-      "name": "鎼滅嫍鈹冭棰�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/鎼滅嫍瑙嗛.js"
-    },
-    {
-      "key": "meowtv_fqdj",
-      "name": "鐣寗鈹冪煭鍓�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/鐣寗鐭墽.js"
-    },
-    {
-      "key": "meowtv_bydj",
-      "name": "姒滀竴鈹冪煭鍓�",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/姒滀竴鐭墽.json",
-      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
-    },
-    {
-      "key": "meowtv_hmdj",
-      "name": "娌抽┈鈹冪煭鍓�",
-      "type": 3,
-      "api": "csp_Duanjuw",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "http://meowtv.cn/meow5;md5;6120D08F4EB1EDCE507BFCD1B339C482"
-    },
-    {
-      "key": "meowtv_rxdj",
-      "name": "閿愭槦鈹冪煭鍓�",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://122.228.84.103:6822/api.php/app/"
-    },
-    {
-      "key": "meowtv_ygcl",
-      "name": "褰辨腐鈹冪鍔�",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/xp/褰辨腐纾佸姏.json",
-      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
-    },
-    {
-      "key": "meowtv_6Vcl",
-      "name": "鏂�6v鈹冪鍔�",
-      "type": 3,
-      "api": "csp_SixV",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http://www.xb6v.com/"
-    },
-    {
-      "key": "meowtv_mp4c",
-      "name": "MP4 鈹冪鍔�",
-      "type": 3,
-      "api": "csp_Mp4Mov",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
-    },
-    {
-      "key": "meowtv_kbcl",
-      "name": "閰峰惂鈹冪鍔�",
-      "type": 3,
-      "api": "csp_KubaCL",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
-    },
-    {
-      "key": "meowtv_xlbc",
-      "name": "杩呴浄鈹冪鍔�",
-      "type": 3,
-      "api": "csp_Xunlei8",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "http://meowtv.cn/meow4;md5;369DE8C4321A5C0ED6E7497F93863319"
-    },
-    {
-      "key": "meowtv_Dm84",
-      "name": "宸村＋鈹冨姩婕�",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "meowtv_Ying",
-      "name": "妯辫姳鈹冨姩婕�",
-      "type": 3,
-      "api": "csp_Ying",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "meowtv_Anim",
-      "name": "鏃ユ极鈹冨姩婕�",
-      "type": 3,
-      "api": "csp_Anime1",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "meowtv_yjdm",
-      "name": "寮傜晫鈹冨姩婕�",
-      "type": 3,
-      "api": "csp_Ysj",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "meowtv_ntdm",
-      "name": "鏌犳鈹冨姩婕�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/鏌犳鍔ㄦ极.js"
-    },
-    {
-      "key": "meowtv_mddm",
-      "name": "婕矝鈹冨姩婕�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/婕矝鍔ㄦ极.js"
-    },
-    {
-      "key": "meowtv_lmdm",
-      "name": "璺极鈹冨姩婕�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/璺极鍔ㄦ极.js"
-    },
-    {
-      "key": "meowtv_qmdm",
-      "name": "濂囩背鈹冨姩婕�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/濂囩背鍔ㄦ极.js"
-    },
-    {
-      "key": "meowtv_kbdm",
-      "name": "鐪嬪惂鈹冨姩婕�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/鐪嬪惂鍔ㄦ极.js"
-    },
-    {
-      "key": "meowtv_88kq",
-      "name": "鍏叓鈹冧綋鑲�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/js/鍏叓浣撹偛.js"
-    },
-    {
-      "key": "meowtv_qmty",
-      "name": "JRK 鈹冧綋鑲�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/js/JRK浣撹偛.js"
-    },
-    {
-      "key": "meowtv_310q",
-      "name": "涓変竴鈹冧綋鑲�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/js/涓変竴浣撹偛.js"
-    },
-    {
-      "key": "meowtv_gdty",
-      "name": "鏍兼枟鈹冧綋鑲�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "http://cdn.teyonds.com/js/鏍兼枟浣撹偛.js"
-    },
-    {
-      "key": "meowtv_qety",
-      "name": "浼侀箙鈹冧綋鑲�",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/xp/浼侀箙浣撹偛.json"
-    },
-    {
-      "key": "meowtv_mxmv",
-      "name": "鏄庢槦鈹� MV ",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "http://cdn.teyonds.com/xp/鏄庢槦MV.json"
-    },
-    {
-      "key": "meowtv_kqmv",
-      "name": "閰峰鈹� MV ",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/js/閰峰瑙嗛.js"
-    },
-    {
-      "key": "meowtv_hyzb",
-      "name": "铏庣墮鈹冪洿鎾�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/js/铏庣墮鐩存挱.js"
-    },
-    {
-      "key": "meowtv_dyzb",
-      "name": "鏂楅奔鈹冪洿鎾�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/js/鏂楅奔鐩存挱.js"
-    },
-    {
-      "key": "meowtv_blzb",
-      "name": "鍝斿摡鈹冪洿鎾�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "http://cdn.teyonds.com/js/鍝斿摡鐩存挱.js"
-    },
-    {
-      "key": "meowtv_jhzb",
-      "name": "鑱氬悎鈹冪洿鎾�",
-      "type": 3,
-      "api": "csp_Yj1211",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "meowtv_jdsp",
-      "name": "鑱氱煭鈹冭棰�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/js/鑱氱煭瑙嗛.js"
-    },
-    {
-      "key": "meowtv_ysxs",
-      "name": "鏈夊０鈹冨皬璇�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/js/鏈夊０灏忚.js"
-    },
-    {
-      "key": "meowtv_blhj",
-      "name": "鍝斿摡鈹冨悎闆�",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/xp/鍝斿摡鍚堥泦.json"
-    },
-    {
-      "key": "meowtv_blgq",
-      "name": "鍝斿摡鈹冩瓕鏇�",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/xp/鍝斿摡姝屾洸.json"
-    },
-    {
-      "key": "meowtv_jjjx",
-      "name": "鎬ユ晳鈹冩暀瀛�",
-      "type": 3,
-      "api": "csp_FirstAid",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "meowtv_txdh",
-      "name": "鑵捐鈹冨姩鐢�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/鑵捐鍔ㄧ敾.js"
-    },
-    {
-      "key": "meowtv_qydh",
-      "name": "濂囪壓鈹冨姩鐢�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/濂囪壓鍔ㄧ敾.js"
-    },
-    {
-      "key": "meowtv_mgdh",
-      "name": "鑺掓灉鈹冨姩鐢�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/鑺掓灉鍔ㄧ敾.js"
-    },
-    {
-      "key": "meowtv_tqss",
-      "name": "绔ヨ叮鈹冩悳瑙�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://cdn.teyonds.com/js/绔ヨ叮鎼滆.js"
-    },
-    {
-      "key": "meowtv_etqm",
-      "name": "鍎跨鈹冨惎钂�",
-      "type": 3,
-      "api": "http://cdn.teyonds.com/js/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/js/鍎跨鍚挋.js"
-    },
-    {
-      "key": "meowtv_dtgx",
-      "name": "鐏鈹冨浗瀛�",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "http://cdn.teyonds.com/xp/鐏鍥藉.json"
-    },
-    {
-      "key": "meowtv_sejy",
-      "name": "灏戝効鈹冩暀鑲�",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/xp/灏戝効鏁欒偛.json"
-    },
-    {
-      "key": "meowtv_xxkt",
-      "name": "灏忓鈹冭鍫�",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/xp/灏忓璇惧爞.json"
-    },
-    {
-      "key": "meowtv_czkt",
-      "name": "鍒濅腑鈹冭鍫�",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/xp/鍒濅腑璇惧爞.json"
-    },
-    {
-      "key": "meowtv_gzkt",
-      "name": "楂樹腑鈹冭鍫�",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://cdn.teyonds.com/xp/楂樹腑璇惧爞.json"
-    },
-    {
-      "key": "meowtv_bdsp",
-      "name": "鏈湴鈹冭棰�",
-      "type": 3,
-      "api": "csp_LocalFile",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "type_flag": 0,
-      "jar": "http://meowtv.cn/meow5;md5;6120D08F4EB1EDCE507BFCD1B339C482"
-    },
-    {
-      "key": "meowtv_qyss",
-      "name": "涓冨鈹冩悳绱�",
-      "type": 3,
-      "api": "csp_Dovx",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/MeowTV/token.txt+4k|auto|fhd"
-    },
-    {
-      "key": "meowtv_Psss",
-      "name": "鐩楽e鈹冩悳绱�",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/MeowTV/token.txt+4k|auto|fhd"
-    },
-    {
-      "key": "meowtv_psss",
-      "name": "鐩樻悳鈹冩悳绱�",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/MeowTV/token.txt+4k|auto|fhd"
-    },
-    {
-      "key": "meowtv_ysss",
-      "name": "浜戞悳鈹冩悳绱�",
-      "type": 3,
-      "api": "csp_UpYun",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/MeowTV/token.txt+4k|auto|fhd"
-    },
-    {
-      "key": "push_agent",
-      "name": "鎺ㄩ€佲攦閾炬帴",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/MeowTV/token.txt+4k|auto|fhd"
-    }
-  ],
-  "parses": [
-    {
-      "name": "鑱氬悎",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "MeowTV",
-      "type": 1,
-      "url": "http://jx.meowtv.cn/?url="
-    }
-  ],
+  "spider": "./jar/fan.txt;md5;c84c36278bd8bc95a63449a128074be0",
+  "wallpaper": "http://tool.teyonds.com/api",
   "lives": [
     {
-      "name": "鐩存挱",
+      "name": "TV",
       "type": 0,
-      "playerType": 1,
-      "url": "http://meowtv.cn/zb",
-      "ua": "okhttp/3.15",
+      "boot": false,
+      "url": "./tv.m3u",
+      "url11": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/master/tv/m3u/ipv6.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
-  "spider": "http://meowtv.cn/meow1;md5;D1115D99527D75948D095085B1407ADD",
-  "wallpaper": "http://tool.teyonds.com/api",
-  "ijk": [
+  "sites": [
     {
-      "group": "杞В鐮�",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "0"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        }
-      ]
+      "key": "厂长",
+      "name": "亿视界┃无广4K",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.cz233.com/"
     },
     {
-      "group": "纭В鐮�",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "1"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        }
-      ]
+      "key": "七七",
+      "name": "👒七七┃秒播",
+      "type": 3,
+      "api": "csp_Kunyu77",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "svip",
+      "type": 0,
+      "url": "https://svip.bljiex.cc/?v="
+    },
+    {
+      "name": "JSON",
+      "type": 0,
+      "url": "https://jx.jsonplayer.com/player/?url="
+    },
+    {
+      "name": "meow",
+      "type": 1,
+      "url": "http://jx.meowtv.cn/?url="
+    },
+    {
+      "name": "777",
+      "type": 0,
+      "url": "https://jx.777jiexi.com/player/?url="
     }
   ],
   "doh": [
@@ -1660,6 +104,151 @@
       "ips": [
         "9.9.9.9",
         "149.112.112.112"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "name": "hwk",
+      "hosts": [
+        "haiwaikan"
+      ],
+      "regex": [
+        "10.0099",
+        "10.3333",
+        "16.0599",
+        "8.1748",
+        "10.85"
+      ]
+    },
+    {
+      "name": "yqk",
+      "hosts": [
+        "yqk88"
+      ],
+      "regex": [
+        "18.4",
+        "15.1666"
+      ]
+    },
+    {
+      "name": "sn",
+      "hosts": [
+        "suonizy"
+      ],
+      "regex": [
+        "15.1666",
+        "15.2666"
+      ]
+    },
+    {
+      "name": "bf",
+      "hosts": [
+        "bfzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "xx",
+      "hosts": [
+        "aws.ulivetv.net"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "lz",
+      "hosts": [
+        "vip.lz",
+        "hd.lz",
+        "v.cdnlz1",
+        "v.cdnlz"
+      ],
+      "regex": [
+        "18.5333"
+      ]
+    },
+    {
+      "name": "非凡",
+      "hosts": [
+        "vip.ffzy",
+        "hd.ffzy"
+      ],
+      "regex": [
+        "25.0666"
+      ]
+    },
+    {
+      "name": "hs",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "dy",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "nm",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "cl",
+      "hosts": [
+        "magnet"
+      ],
+      "regex": [
+        "最 新",
+        "直 播",
+        "更 新"
+      ]
+    },
+    {
+      "name": "量子廣告",
+      "hosts": [
+        "vip.lz",
+        "hd.lz"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {"name":"量子广告","hosts":["vip.lz","hd.lz",".cdnlz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+    {"name":"非凡广告","hosts":["vip.ffzy","hd.ffzy"],"regex":["20.52","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1170(20|32).*?\\.ts\\s+","#EXTINF.*?\\s+.*?116977.*?\\.ts\\s+"]},
+    {"name":"索尼广告","hosts":["suonizy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1\\.000000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+","#EXTINF.*?\\s+.*?\\/video\\/original.*?\\.ts\\s+"]},
+    {"name":"暴风广告","hosts":["bfzy","bfbfvip"],"regex":["#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"]},
+    {"name":"星星广告","hosts":["aws.ulivetv.net"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+    {"name":"快看广告","hosts":["kuaikan"],"regex":["#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+    {"name":"磁力广告","hosts":["magnet"],"regex":["更多","请访问","example","社 區","x u u","直 播","更 新","社 区","有趣","有 趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
+    {"name":"一起看广告","hosts":["yqk88"],"regex":["18.4","15.1666","16.5333","#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"]},
+    {"name":"火山嗅探","hosts":["huoshan.com"],"regex":["item_id="]},
+    {"name":"抖音嗅探","hosts":["douyin.com"],"regex":["is_play_url="]},
+    {"name":"proxy","hosts":["raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*","*.t4tv.hz.cz",".*ulivetv.*"]},
+    {"name":"农民嗅探","hosts":["toutiaovod.com"],"regex":["video/tos/cn"]},
+    {
+      "name": "非凡廣告",
+      "hosts": [
+        "vip.ffzy",
+        "hd.ffzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
       ]
     }
   ],
