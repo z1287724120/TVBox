@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🚗 鑫达服务站</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui,sans-serif}
+body{
+  padding:16px;
+  transition:all 0.3s;
+  min-height:100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container{max-width:480px;margin:0 auto}
+.card{
+  border-radius:20px;
+  padding:22px;
+  margin-bottom:16px;
+  background:rgba(255,255,255,0.25);
+  backdrop-filter:blur(4px);
+  transition:all 0.3s;
+}
+.title{font-size:20px;font-weight:bold;margin-bottom:16px}
+
+/* 作者：赵佳 —— 大字体 + 流光渐变动画 */
+.watermark {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff8a00, #ff3e6c, #3f8cff, #ff8a00);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: flowText 3s linear infinite;
+  text-shadow: 0 0 8px rgba(255,255,255,0.3);
+  pointer-events: none;
+  z-index: 999;
+}
+@keyframes flowText {
+  0% { background-position: 0% 0; }
+  100% { background-position: 300% 0; }
+}
+
+.main-title {
+  text-align:center;
+  font-size:30px;
+  font-weight:bold;
+  margin:10px 0 20px;
+  letter-spacing: 6px;
+  color: #fff;
+  background: linear-gradient(90deg, #111, #448cf7, #fff, #448cf7, #111);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: meteorShower 3s linear infinite;
+  text-shadow: 0 0 10px rgba(68,140,247,0.5), 0 0 20px rgba(68,140,247,0.3);
+}
+@keyframes meteorShower {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+input{width:100%;height:48px;border-radius:14px;padding:0 16px;margin-bottom:10px;font-size:15px;background:rgba(255,255,255,0.7)}
+button{border:none;border-radius:10px;color:#fff;font-weight:bold;cursor:pointer}
+.main-btn{width:100%;height:50px;font-size:16px;margin-top:6px}
+.small-btn{padding:6px 10px;font-size:12px;background:#ff5577}
+.bg-btn{margin-top:10px;background:#6a89ff}
+#bgInput{display:none}
+h3{margin:20px 0 10px;font-size:17px;color:#fff}
+.item{border-radius:16px;padding:16px;margin-bottom:10px;border-left:5px solid;line-height:1.6;background:rgba(255,255,255,0.35)}
+.part-row{display:flex;justify-content:space-between;align-items:center;margin:3px 0}
+
+/* 动漫粉 */
+body.ani{background-color:#fdf2f8}
+body.ani .card{border:2px solid #ffc0d6}
+body.ani .title{color:#ff5599}
+body.ani input{border:1px solid #ffd6e7}
+body.ani .btn-pink{background:#ff7ab3}
+body.ani .btn-blue{background:#78caff}
+body.ani .btn-red{background:#ff5577}
+body.ani .item{border-color:#ff99cc}
+
+/* 科技蓝 */
+body.blue{background-color:#f0f7ff}
+body.blue .card{border:2px solid #91c7ff}
+body.blue .title{color:#1677ff}
+body.blue input{border:1px solid #c6e2ff}
+body.blue .btn-pink{background:#1677ff}
+body.blue .btn-blue{background:#00aaff}
+body.blue .btn-red{background:#ff4444}
+body.blue .item{border-color:#1677ff}
+
+/* 商务黑 */
+body.dark{background-color:#222}
+body.dark .card{border:2px solid #666;background:rgba(34,34,34,0.35)}
+body.dark .title{color:#fff}
+body.dark input{background:#444;color:#fff;border:1px solid #666}
+body.dark .btn-pink{background:#666}
+body.dark .btn-blue{background:#0099ff}
+body.dark .btn-red{background:#ff4444}
+body.dark .item{background:#444;border-color:#aaa}
+
+/* 清新绿 */
+body.green{background-color:#f0fff8}
+body.green .card{border:2px solid #86e8b6}
+body.green .title{color:#00aa7f}
+body.green input{border:1px solid #b6f0d4}
+body.green .btn-pink{background:#00cc99}
+body.green .btn-blue{background:#33cccc}
+body.green .btn-red{background:#ff4444}
+body.green .item{background:#f8fffc;border-color:#00cc99}
+
+.theme-bar{display:flex;gap:8px;margin-bottom:12px}
+.theme-bar button{height:42px;font-size:14px}
+.status{padding:4px 8px;border-radius:6px;color:#fff;font-size:12px;margin-bottom:5px;background:#3399ff}
+</style>
+</head>
+<body class="ani">
+
+<div class="watermark">作者：赵佳</div>
+
+<div class="container">
+
+<!-- 登录 -->
+<div id="loginPage">
+  <div class="card">
+    <div class="title">🌸 登录</div>
+    <input id="loginUser" placeholder="账号">
+    <input id="loginPwd" type="password" placeholder="密码">
+    <button class="main-btn btn-pink" onclick="login()">登录</button>
+    <button class="main-btn btn-blue" onclick="show('reg')">注册</button>
+  </div>
+</div>
+
+<!-- 注册 -->
+<div id="regPage" style="display:none">
+  <div class="card">
+    <div class="title">🌸 注册</div>
+    <input id="regUser" placeholder="账号">
+    <input id="regPwd" type="password" placeholder="密码">
+    <button class="main-btn btn-pink" onclick="register()">注册</button>
+    <button class="main-btn btn-blue" onclick="show('login')">返回</button>
+  </div>
+</div>
+
+<!-- 主界面 -->
+<div id="mainPage" style="display:none">
+  <div class="main-title">鑫 达 服 务 站</div>
+  <div class="card">
+    <div class="title">🚗 配件管理</div>
+
+    <div class="theme-bar">
+      <button class="btn-pink" onclick="setTheme('ani')">动漫粉</button>
+      <button class="btn-blue" onclick="setTheme('blue')">科技蓝</button>
+      <button class="btn-blue" onclick="setTheme('dark')">商务黑</button>
+      <button class="btn-red" onclick="setTheme('green')">清新绿</button>
+    </div>
+    
+    <input id="carNo" placeholder="车牌号">
+    <input id="carType" placeholder="车型">
+    <input id="partName" placeholder="配件名称">
+    <input id="partCode" placeholder="配件图号（选填）">
+    
+    <button class="main-btn btn-pink" onclick="addParts()">添加配件（维修中）</button>
+
+    <input id="searchCar" placeholder="🔍 搜索车牌" oninput="refresh()">
+    <button class="main-btn btn-blue" onclick="exportSingle()">导出当前车牌</button>
+    
+    <input type="file" id="bgInput" accept="image/*">
+    <button class="main-btn bg-btn" onclick="bgInput.click()">更换背景图</button>
+  </div>
+
+  <h3>📋 维修中车辆</h3>
+  <div id="carList"></div>
+</div>
+
+</div>
+
+<script>
+let data = {
+  users: {},
+  cars: {}
+};
+
+function load(){try{data=JSON.parse(localStorage.carPartsSys)}catch(e){}}
+function save(){localStorage.carPartsSys=JSON.stringify(data)}
+
+function show(pg){
+  loginPage.style.display=pg=="login"?"block":"none"
+  regPage.style.display=pg=="reg"?"block":"none"
+  mainPage.style.display=pg=="main"?"block":"none"
+}
+
+function setTheme(t){
+  document.body.className = t;
+  localStorage.setItem("theme",t)
+}
+
+function loadBackground(){
+  const bg = localStorage.getItem("customBg");
+  if(bg){
+    document.body.style.backgroundImage = `url(${bg})`;
+  }
+}
+
+bgInput.onchange = function(e){
+  const file = e.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = function(){
+    const src = reader.result;
+    document.body.style.backgroundImage = `url(${src})`;
+    localStorage.setItem("customBg", src);
+  }
+  reader.readAsDataURL(file);
+}
+
+window.onload=()=>{
+  setTheme(localStorage.getItem("theme")||"ani");
+  loadBackground();
+  show("login");
+}
+
+function register(){
+  let u=regUser.value.trim(),p=regPwd.value.trim()
+  if(!u||!p)return alert("请填写完整")
+  load()
+  if(data.users[u])return alert("账号已存在")
+  data.users[u]=p;save();alert("注册成功");show("login")
+}
+
+function login(){
+  let u=loginUser.value.trim(),p=loginPwd.value.trim()
+  load()
+  if(data.users[u]&&data.users[u]==p){
+    show("main");refresh()
+  }else alert("账号或密码错误")
+}
+
+function addParts(){
+  let car=carNo.value.trim()
+  let type=carType.value.trim()
+  let part=partName.value.trim()
+  let code=partCode.value.trim()
+  
+  if(!car||!part)return alert("车牌和配件必填")
+  
+  load()
+  if(!data.cars[car]) data.cars[car]={type,parts:[]}
+  data.cars[car].parts.push({
+    part, 
+    code: code || "",
+    time:new Date().toLocaleString()
+  })
+  save()
+  partName.value=""
+  partCode.value=""
+  refresh()
+}
+
+function deletePart(car, index){
+  if(!confirm("确定删除这个配件？")) return;
+  load();
+  data.cars[car].parts.splice(index, 1);
+  if(data.cars[car].parts.length === 0){
+    delete data.cars[car];
+  }
+  save();
+  refresh();
+}
+
+function finish(car){
+  if(!confirm("确定完工并删除该车辆？")) return;
+  load();
+  delete data.cars[car];
+  save();
+  refresh();
+}
+
+function exportSingle(){
+  let car = carNo.value.trim();
+  if(!car){
+    alert("请在车牌号输入框中填写要导出的车牌");
+    return;
+  }
+  load();
+  let obj = data.cars[car];
+  if(!obj){
+    alert("该车牌不存在");
+    return;
+  }
+
+  let csv = "车牌,车型,配件名称,图号,操作员,时间\n";
+  obj.parts.forEach(p=>{
+    csv += `${car},${obj.type||""},${p.part},${p.code||""},后端支持,${p.time}\n`;
+  });
+
+  let blob = new Blob([csv], {type:"text/csv;charset=utf-8"});
+  let a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = car+"_维修记录.csv";
+  a.click();
+}
+
+function refresh(){
+  load();let box=carList;box.innerHTML="";
+  let kw=searchCar.value.trim().toLowerCase()
+  
+  for(let car in data.cars){
+    if(kw&&!car.toLowerCase().includes(kw))continue
+    let o=data.cars[car];
+    
+    let d=document.createElement("div");d.className="item";
+    
+    let html=`<div class="status">维修中</div>`;
+    html+=`车牌：${car}<br>车型：${o.type||"未填写"}<br>——————————<br>配件：<br>`;
+    
+    o.parts.forEach((p, idx)=>{
+      html+=`
+        <div class="part-row">
+          <span>• ${p.part} ${p.code ? '【图号：'+p.code+'】' : ''} ${p.time}</span>
+          <button class="small-btn btn-red" onclick="deletePart('${car}',${idx})">删配件</button>
+        </div>
+      `;
+    })
+    
+    html+=`<br><button class="main-btn" style="background:#33cc66;" onclick="finish('${car}')">完工并删除车辆</button>`;
+    
+    d.innerHTML=html;
+    box.appendChild(d)
+  }
+}
+</script>
+</body>
+</html>
