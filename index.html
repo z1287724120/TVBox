@@ -1,113 +1,84 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>鑫达服务站</title>
+<title>国内电视直播</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif}
-body{
-    background:#111827;
-    color:#e5e7eb;
-    padding:16px;
-    min-height:100vh;
-}
-.container{max-width:480px;margin:0 auto}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;color:#fff;font-family:Arial;padding:10px}
+.title{text-align:center;margin:12px 0;font-size:20px}
+.cat{margin:10px 0 6px;color:#ffaa00}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:10px}
+.btn{padding:9px;background:#222;color:#fff;border:none;border-radius:6px;cursor:pointer}
+.btn:hover{background:#007bff}
+#video{width:100%;height:auto;background:#000;margin-top:10px;border-radius:8px}
+#tip{text-align:center;color:#ccc;margin-top:8px;font-size:14px}
+</style>
+</head>
 
-/* 卡片 */
-.card{
-    background:#1f2937;
-    border-radius:20px;
-    padding:24px;
-    margin-bottom:16px;
-    box-shadow:0 8px 30px rgba(0,0,0,0.3);
-    border:1px solid #374151;
-}
+<body>
+<div class="title">国内电视直播</div>
+<div id="tip">提示：海外观看必须开启回国加速器</div>
 
-/* 标题 */
-.title{
-    font-size:20px;
-    font-weight:700;
-    margin-bottom:18px;
-    color:#f9fafb;
-}
+<div class="cat">📺 央视（双源自动切换）</div>
+<div class="grid">
+<button class="btn" data-name="CCTV1" data-urls='["https://cctvalih5ca.v.myalicdn.com/live/cctv1_2/index.m3u8","http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226001/index.m3u8"]'>CCTV1</button>
+<button class="btn" data-name="CCTV4" data-urls='["https://cctvalih5ca.v.myalicdn.com/live/cctv4_2/index.m3u8","http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226004/index.m3u8"]'>CCTV4</button>
+<button class="btn" data-name="CCTV5" data-urls='["https://cctvalih5ca.v.myalicdn.com/live/cctv5_2/index.m3u8","http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226005/index.m3u8"]'>CCTV5</button>
+<button class="btn" data-name="CCTV6" data-urls='["https://cctvalih5ca.v.myalicdn.com/live/cctv6_2/index.m3u8","http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226006/index.m3u8"]'>CCTV6</button>
+<button class="btn" data-name="CCTV13" data-urls='["https://cctvalih5ca.v.myalicdn.com/live/cctv13_2/index.m3u8","http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226013/index.m3u8"]'>CCTV13</button>
+</div>
 
-.main-title{
-    text-align:center;
-    font-size:28px;
-    font-weight:800;
-    margin:10px 0 24px;
-    letter-spacing:2px;
-    color:#f9fafb;
-}
+<div class="cat">📡 卫视（双源自动切换）</div>
+<div class="grid">
+<button class="btn" data-name="湖南卫视" data-urls='["http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8","https://cctvalih5ca.v.myalicdn.com/live/hunan_2/index.m3u8"]'>湖南卫视</button>
+<button class="btn" data-name="浙江卫视" data-urls='["http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225588/index.m3u8","https://cctvalih5ca.v.myalicdn.com/live/zhejiang_2/index.m3u8"]'>浙江卫视</button>
+<button class="btn" data-name="东方卫视" data-urls='["http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/index.m3u8","https://cctvalih5ca.v.myalicdn.com/live/dongfang_2/index.m3u8"]'>东方卫视</button>
+<button class="btn" data-name="江苏卫视" data-urls='["http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8","https://cctvalih5ca.v.myalicdn.com/live/jiangsu_2/index.m3u8"]'>江苏卫视</button>
+<button class="btn" data-name="广东卫视" data-urls='["http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8","https://cctvalih5ca.v.myalicdn.com/live/guangdong_2/index.m3u8"]'>广东卫视</button>
+</div>
 
-/* 输入框 */
-input{
-    width:100%;
-    height:50px;
-    border-radius:12px;
-    padding:0 16px;
-    margin-bottom:12px;
-    font-size:15px;
-    background:#374151;
-    border:none;
-    color:#f3f4f6;
-    outline:none;
-}
-input:focus{
-    border:1px solid #3b82f6;
-}
+<video id="video" controls muted playsinline></video>
 
-/* 按钮 */
-button{
-    border:none;
-    border-radius:12px;
-    color:#fff;
-    font-weight:600;
-    cursor:pointer;
-    transition:0.2s;
-}
-button:active{transform:scale(0.96)}
+<script>
+const video = document.getElementById('video');
+const tip = document.getElementById('tip');
+let currentUrls = [];
+let currentIndex = 0;
+let currentName = '';
 
-.main-btn{
-    width:100%;
-    height:52px;
-    font-size:16px;
-    margin-top:6px;
-    background:linear-gradient(90deg, #3b82f6, #60a5fa);
-}
-.small-btn{
-    padding:8px 12px;
-    font-size:13px;
-    background:#ef4444;
-}
-.theme-bar{
-    display:flex;
-    gap:10px;
-    margin-bottom:16px;
-}
-.theme-bar button{
-    flex:1;
-    height:44px;
-    font-size:14px;
-    background:#374151;
-}
-.theme-bar button.active{
-    background:#3b82f6;
+async function playIndex(i) {
+  if (i >= currentUrls.length) {
+    tip.textContent = '全部源失效，请换频道';
+    alert('播放失败：所有源都失效');
+    return;
+  }
+  tip.textContent = `正在尝试第${i+1}个源...`;
+  video.src = currentUrls[i];
+  try {
+    await video.play();
+    tip.textContent = `✅ 正在播放：${currentName}`;
+  } catch (e) {
+    playIndex(i+1);
+  }
 }
 
-.bg-btn{
-    margin-top:10px;
-    background:#2563eb;
-}
+document.querySelectorAll('.btn').forEach(b => {
+  b.onclick = () => {
+    currentName = b.dataset.name;
+    currentUrls = JSON.parse(b.dataset.urls);
+    playIndex(0);
+  };
+});
 
-/* 列表 */
-h3{
-    margin:24px 0 12px;
-    font-size:16px;
-    color:#d1d5db;
-}
-.item{
+video.onerror = () => {
+  tip.textContent = '主源失效，正在切备用源...';
+  playIndex(currentIndex+1);
+};
+</script>
+</body>
+</html>
     background:#1f2937;
     border-radius:16px;
     padding:18px;
